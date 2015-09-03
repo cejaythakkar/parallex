@@ -1,0 +1,48 @@
+div[id*="bg_"]{
+  height : 758px;
+  width : 1600px;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position:relative;
+  float:left;
+}
+
+div#bg_foo{
+  background-image: url("../images/DSC03769.JPG")
+}
+
+div#bg_bar{
+  background-image: url("../images/DSC03683.JPG")
+}
+
+div#bg_baz{
+  background-image: url("../images/DSC03681.JPG")
+}
+
+div#bg_buzz{
+  background-image: url("../images/DSC03679.JPG")
+}
+
+.slidetext{
+  position: absolute;
+  top:50%;
+  font-size: 2em;
+  color : orange;
+  left : 50%;
+}
+
+body{
+  margin:0 0;
+}
+
+.parallax{
+  width : 6400px;
+}
+
+#curtain{
+  height:758px;
+  z-index : 5;
+  background : rgba(255,255,255,.4);
+  position: absolute; 
+}
