@@ -2,8 +2,8 @@ var express = require('express'),
 	app = express(),
 	port = process.env.PORT || 3000;
 
-express.use(express.static('public'));
+app.use(express.static('public'));
 
-express.listen(port,function(){
+app.listen(port,function(){
 	console.log('server up and running ....!');
 });
